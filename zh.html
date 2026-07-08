@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-language="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chris Haoyu Geng - AI治理、企业AI部署、数字战略与社会学洞察作品集">
+  <title>Chris Haoyu Geng | AI治理与数字战略</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="signal-canvas" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回顶部"><span class="brand-mark">HG</span><span>Chris Haoyu Geng</span></a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#impact">成果</a><a href="#timeline">经历</a><a href="#education">教育</a><a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <div class="language-switch" aria-label="语言切换">
+    <span>语言</span>
+    <a href="en.html">EN</a>
+    <a class="is-active" href="zh.html">中文</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">AI治理 · 数字化战略 · 社会学洞察</p>
+        <h1>Chris Haoyu Geng</h1>
+        <p class="hero-copy">连接 AI 治理、AI 场景化部署、数字化战略与社会学洞察的复合型人才，具备哥伦比亚大学社会学与教育学背景，以及 KPMG、Strategy&、平安银行的企业级项目经验。</p>
+        <div class="hero-actions"><a class="primary-button" href="#timeline">查看经历</a><button class="ghost-button" id="open-contact" type="button">联系本人</button></div>
+      </div>
+      <aside class="hero-console" aria-label="个人概览">
+        <div class="console-row"><span>状态</span><strong>AI治理与安全咨询顾问</strong></div>
+        <div class="console-row"><span>所在地</span><strong>北京</strong></div>
+        <div class="console-row"><span>方向</span><strong>AI治理 / AI安全 / AI产品PoC</strong></div>
+      </aside>
+    </section>
+
+    <section id="impact" class="section">
+      <div class="section-heading"><p class="eyebrow">量化成果</p><h2>把复杂问题变成可落地的增长和控制指标</h2></div>
+      <div class="metric-grid" aria-label="关键成果">
+        <article class="metric"><span class="metric-number" data-target="400" data-suffix="+">0</span><p>AI 应用场景纳入治理与安全控制框架</p></article>
+        <article class="metric"><span class="metric-number" data-target="30" data-suffix="+">0</span><p>AI 模型、治理与安全供应商评估协作</p></article>
+        <article class="metric"><span class="metric-number" data-target="60" data-suffix="万+">0</span><p>月度线上支付交易增量，由联合营销链路推动</p></article>
+        <article class="metric"><span class="metric-number text-metric">Top3</span><p>全美大学击剑俱乐部锦标赛男子佩剑团体季军；个人前8</p></article>
+      </div>
+    </section>
+
+    <section id="timeline" class="section timeline-section">
+      <div class="section-heading"><p class="eyebrow">互动时间轴</p><h2>从数字战略到 AI 治理的项目路径</h2></div>
+      <div class="timeline-layout">
+        <div class="timeline-controls" role="tablist" aria-label="工作经历时间轴">
+          <button class="timeline-node is-active" type="button" role="tab" aria-selected="true" data-index="0"><span>2026</span><strong>毕马威企业咨询</strong></button>
+          <button class="timeline-node" type="button" role="tab" aria-selected="false" data-index="1"><span>2025</span><strong>普华永道思略特</strong></button>
+          <button class="timeline-node" type="button" role="tab" aria-selected="false" data-index="2"><span>2023</span><strong>平安银行</strong></button>
+          <button class="timeline-node" type="button" role="tab" aria-selected="false" data-index="3"><span>2022-24</span><strong>领导力与竞赛</strong></button>
+        </div>
+        <article class="experience-panel" aria-live="polite">
+          <div class="panel-kicker" id="experience-date"></div>
+          <h3 id="experience-title"></h3>
+          <p id="experience-org"></p>
+          <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+          <div id="achievement-list" class="achievement-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section split-section">
+      <div><p class="eyebrow">教育经历</p><h2>商业-文化-社会：多元视角&训练</h2><p class="body-copy">通过社会学、组织研究、政策数据分析和商业管理课程，形成对用户、组织、制度与技术落地之间关系的理解。</p></div>
+      <div class="education-list">
+        <article><span>2024 - 2026</span><h3>哥伦比亚大学</h3><p>社会学与教育学硕士 · GPA 3.92/4.0</p></article>
+        <article><span>2022 - 2024</span><h3>加州大学圣巴巴拉分校</h3><p>社会学本科 · GPA 3.87/4.0 · 荣誉毕业生 · 院长嘉许名单</p></article>
+        <article><span>2023 - 2024</span><h3>复旦大学交换项目</h3><p>社会学与商业管理 · GPA 3.91/4.0</p></article>
+      </div>
+    </section>
+
+    <section class="section skills-section">
+      <div class="section-heading"><p class="eyebrow">能力组合</p><h2>跨咨询、数据、治理与多文化/语言协作的能力组合</h2></div>
+      <div class="skill-cloud" id="skill-cloud" aria-label="技能">
+        <span>AI治理</span><span>AI场景化部署</span><span>PoC验证</span><span>数字化战略</span><span>用户旅程</span><span>竞品对标</span><span>Python</span><span>Stata</span><span>Think-cell</span><span>英语</span><span>日语</span><span>西班牙语</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div><p class="eyebrow">联系方式</p><h2>面向AI治理、企业AI部署、数字战略与增长项目的合作机会</h2></div>
+      <div class="contact-actions">
+        <button type="button" class="copy-contact" data-copy="17611131031">Tel. 17611131031</button>
+        <button type="button" class="copy-contact" data-copy="chrisgeng@yeah.net">Email: chrisgeng@yeah.net</button>
+        <button type="button" class="copy-contact" data-copy="G1031hh">Wechat: G1031hh</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="contact-modal" id="contact-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-contact></div>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+      <button class="modal-close" type="button" data-close-contact aria-label="关闭联系弹窗">×</button>
+      <p class="eyebrow">直接联系</p>
+      <h2 id="contact-modal-title">联系方式</h2>
+      <div class="modal-contact-list">
+        <button type="button" class="copy-contact" data-copy="17611131031">Tel. 17611131031</button>
+        <button type="button" class="copy-contact" data-copy="chrisgeng@yeah.net">Email: chrisgeng@yeah.net</button>
+        <button type="button" class="copy-contact" data-copy="G1031hh">Wechat: G1031hh</button>
+      </div>
+      <p class="copy-hint" id="copy-hint">点击任一联系方式即可复制</p>
+    </section>
+  </div>
+
+  <script src="script-i18n.js"></script>
+</body>
+</html>
