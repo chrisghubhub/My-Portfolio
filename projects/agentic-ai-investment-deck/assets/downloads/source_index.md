@@ -1,6 +1,8 @@
 # 来源索引
 
-主报告使用 28 个独立来源，优先公司财报、SEC、产品文档和政府/高校研究。完整 URL、抓取日、证据类型、局限与置信度见 `research/02_source_log.csv`。
+V2.2 研究日志包含 34 个 Source IDs、33 个唯一文档 / URL；18 页正文实际引用 27 个 Source IDs，其中一手来源占 85.2%。证据矩阵包含 24 条 Verified 或 Verified with caveat 的 claim records。完整 URL、抓取日、证据类型、局限与置信度见 `source_log.csv`，逐条核验状态见 `claim_evidence_matrix.csv`。
+
+Source IDs may exceed unique documents because one document can support multiple evidence records or appear under multiple research tags.
 
 ## 公司财报与监管文件
 
@@ -43,4 +45,3 @@
 - NIST/Stanford 为机构来源，不提供公司收入预测。
 - Menlo 与 Anthropic 分别存在 VC 市场模型和单一供应商样本偏差。
 - Yahoo 为第三方市场数据，已通过公司拆股披露做交叉核对。
-

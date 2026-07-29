@@ -12,7 +12,8 @@
   --soft: #eef2f6;
   --paper: #f8f9fb;
   --white: #fff;
-  font-family: Inter, Arial, Helvetica, "Microsoft YaHei", "PingFang SC", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
 }
 
 * { box-sizing: border-box; }
@@ -48,7 +49,7 @@ button { color: inherit; }
 .section-label { margin: 0 0 9px; color: var(--blue); font-size: 11px; font-weight: 800; letter-spacing: .14em; }
 h1, h2, h3, p { margin-top: 0; }
 h2 { margin: 0; color: var(--navy); font-size: clamp(30px, 2.4vw, 42px); line-height: 1.17; letter-spacing: -.035em; }
-h3 { margin-bottom: 12px; color: var(--navy); font-size: 14px; letter-spacing: .04em; }
+h3 { margin-bottom: 12px; color: var(--navy); font-size: 17px; line-height: 1.3; font-weight: 700; letter-spacing: .04em; }
 p, span, td, th { line-height: 1.45; }
 .source {
   position: absolute;
@@ -441,11 +442,141 @@ p, span, td, th { line-height: 1.45; }
 .open-appendix-large { display: flex; width: 100%; margin-top: 15px; padding: 13px 16px; border: 0; background: var(--navy); color: #fff; cursor: pointer; justify-content: space-between; font-size: 12px; font-weight: 800; letter-spacing: .06em; }
 .open-appendix-large span { color: #9db8ff; font-weight: 400; letter-spacing: 0; }
 
-/* Final institutional type scale */
+/* V2.2 institutional type scale */
 .slide { font-size: 16px; }
 .slide p { font-size: 16px; line-height: 1.48; }
-.slide h3 { font-size: 15px; }
+.slide h3 { font-size: 17px; line-height: 1.3; font-weight: 700; }
 .section-label, .slide small, .source, .slide-no, .axis-x, .axis-y, .quad { font-size: 11px; }
+.cover-conclusion,
+.stance-table td:last-child,
+.evidence-strip span,
+.thesis-row p,
+.validation-path span,
+.debate-table > div > span,
+.value-chain span,
+.framework-read p,
+.governance-thesis em,
+.map-read span,
+.price-block em,
+.company-thesis p,
+.market-wrong p,
+.risk-band span,
+.falsify-strip span,
+.lifecycle span,
+.path-case p,
+.path-case em,
+.path-verdict span,
+.multiple-bridge span,
+.opportunity > p,
+.opportunity blockquote,
+.china-map span,
+.opportunity > em,
+.catalyst-legend span,
+.source-hierarchy span,
+.source-hierarchy em,
+.model-register span { font-size: 15px; line-height: 1.4; }
+.thesis-row strong,
+.map-read b,
+.key-data span,
+.risk-band b,
+.falsify-strip em,
+.china-map b { font-size: 15px; }
+.source-hierarchy h3,
+.model-register h3 { font-size: 17px; }
+.value-chain b,
+.company-thesis h3,
+.market-wrong h3,
+.path-case h3 { font-size: 17px; }
+.price-block span,
+.valuation-bridge > div > *,
+.pricing-proof span,
+.logic-chain span,
+.operating-table span,
+.competitive-table > div > *,
+.revenue-bars span,
+.revenue-bars b,
+.scenario-list span,
+.path-flow span,
+.comparison-row > *,
+.opportunity th,
+.opportunity td,
+.control-stack span,
+.catalyst-table > div > *,
+.falsification-table > div > *,
+.portfolio-table > div > *,
+.source-audit span,
+.source-audit em,
+.appendix-links a { font-size: 14px; line-height: 1.35; }
+.investment-call { grid-template-columns: auto minmax(180px, auto) 1fr 1fr; }
+.investment-call strong { font-size: 17px; }
+.investment-call span { grid-column: auto; font-size: 14px; }
+.investment-call i { margin-right: 5px; color: var(--muted); font-size: 11px; font-style: normal; letter-spacing: .05em; }
+.comparison-row {
+  grid-template-columns: .55fr .68fr .8fr .78fr .72fr .72fr .95fr 1.05fr 1.35fr;
+  min-height: 78px;
+}
+.comparison-row.head { min-height: 48px; }
+.comparison-row em { font-size: 12px; line-height: 1.25; }
+.comparison-row i { color: var(--muted); font-size: 14px; font-style: normal; line-height: 1.35; }
+.comparison-row i b { color: var(--navy); font-size: 14px; }
+.multiple-bridge { grid-template-columns: repeat(3, 1fr); }
+.multiple-bridge b { font-size: 13px; }
+.portfolio-table > div { grid-template-columns: .85fr .62fr 1.6fr 1.25fr 1.15fr; }
+.portfolio-table b { font-size: 12px; }
+.portfolio-table strong { font-size: 17px; }
+.position-discipline {
+  display: grid;
+  grid-template-columns: 1.05fr repeat(4, 1fr);
+  margin-top: 15px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.position-discipline > b {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color: #fff;
+  background: var(--navy);
+  font-size: 12px;
+  letter-spacing: .05em;
+}
+.position-discipline span {
+  position: relative;
+  display: flex;
+  min-height: 54px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px 10px 12px;
+  border-right: 1px solid var(--line);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.position-discipline small {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  margin-right: 8px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e8eefc;
+  color: var(--blue);
+  font-size: 11px;
+}
+.position-discipline span:not(:last-child)::after {
+  position: absolute;
+  right: 7px;
+  color: var(--blue);
+  content: "→";
+}
+.method-stats { grid-template-columns: repeat(5, 1fr); }
+.method-stats span { min-height: 38px; font-size: 13px; line-height: 1.3; }
+.method-stats b { font-size: 25px; }
+.appendix-panel header p,
+.appendix-note,
+.model-links span { font-size: 15px; line-height: 1.45; }
 .thesis-row p,
 .framework-read p,
 .value-chain span,
@@ -524,18 +655,71 @@ body.appendix-open .drawer-backdrop { visibility: visible; opacity: 1; }
 }
 
 @media (max-width: 900px) {
-  .slide { width: 100%; height: auto; min-height: 100vh; overflow-y: auto; padding: 34px 28px 60px; }
+  .slide { width: 100%; height: auto; min-height: 100vh; overflow-x: hidden; overflow-y: auto; padding: 34px 28px 60px; }
   .source { position: static; margin-top: 26px; white-space: normal; }
   .slide-no { display: none; }
   .cover-copy, .stance-table { width: 100%; max-width: 100%; }
-  .evidence-strip, .framework-grid, .scatter-layout, .pricing-grid, .company-thesis-grid, .valuation-grid, .gitlab-grid, .gitlab-valuation, .path-case-grid, .opportunity-grid, .method-grid { grid-template-columns: 1fr; }
+  .evidence-strip, .why-now-grid, .framework-grid, .scatter-layout, .pricing-grid, .company-thesis-grid, .valuation-grid, .gitlab-grid, .gitlab-valuation, .path-case-grid, .opportunity-grid, .method-grid, .method-stats, .position-discipline, .governance-thesis, .multiple-bridge { grid-template-columns: 1fr; }
+  .company .slide-header h2 { padding-right: 0; }
+  .investment-call { position: static; grid-template-columns: auto 1fr; margin-top: 12px; }
+  .investment-call span { grid-column: auto; }
+  .position-discipline span { justify-content: flex-start; text-align: left; }
+  .position-discipline span:not(:last-child)::after { content: "↓"; }
   .thesis-row { grid-template-columns: 45px 1fr; }
   .thesis-row p, .thesis-row strong { grid-column: 2; }
+  .value-chain { grid-template-columns: 1fr; }
+  .value-chain > div { min-height: 170px; }
+  .value-chain > i { justify-content: center; transform: rotate(90deg); }
+  .pricing-flow { grid-template-columns: 1fr; }
+  .pricing-proof { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .logic-chain, .path-flow, .control-stack, .risk-band { flex-wrap: wrap; }
+  .logic-chain i, .path-flow i, .control-stack i { display: none; }
+  .lifecycle { grid-template-columns: 1fr 1fr; }
+  .falsify-strip { grid-template-columns: 1fr; }
+  .china-map { grid-template-columns: 1fr; }
+  .china-map div { border-right: 0; }
   .universe-matrix { height: auto; grid-template-columns: 1fr; }
   .universe-cell { border-right: 0; border-bottom: 1px solid var(--line) !important; }
-  .comparison-table, .catalyst-table, .falsification-table, .portfolio-table, .valuation-bridge { overflow-x: auto; }
-  .comparison-row, .catalyst-table > div, .falsification-table > div, .portfolio-table > div, .valuation-bridge > div { min-width: 820px; }
+  .comparison-table, .catalyst-table, .falsification-table, .portfolio-table, .valuation-bridge, .screen-table, .competitive-table { max-width: 100%; overflow-x: auto; }
+  .comparison-row, .catalyst-table > div, .falsification-table > div, .portfolio-table > div, .valuation-bridge > div, .screen-table > div, .competitive-table > div { min-width: 820px; }
   .appendix-drawer { width: 100vw; }
+}
+
+@media (max-height: 760px) and (min-width: 901px) {
+  .slide {
+    padding-top: 22px;
+    padding-bottom: 46px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .slide-header {
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+  }
+  .source {
+    bottom: 8px;
+  }
+  .slide-no {
+    bottom: 7px;
+  }
+  .callout,
+  .evidence-strip,
+  .multiple-bridge,
+  .position-discipline,
+  .method-stats,
+  .open-appendix-large {
+    margin-top: 9px;
+  }
+  .callout { padding-top: 8px; padding-bottom: 8px; }
+  .comparison-row { min-height: 62px; }
+  .comparison-row.head { min-height: 40px; }
+  .portfolio-table > div { min-height: 57px; }
+  .method-stats div { padding-top: 8px; padding-bottom: 8px; }
+  .method-stats span { min-height: 32px; }
+  .source-hierarchy > div { min-height: 46px; }
+  .model-register div { min-height: 57px; }
+  .scenario-chart { height: 37vh; }
 }
 
 @media print {
@@ -546,4 +730,3 @@ body.appendix-open .drawer-backdrop { visibility: visible; opacity: 1; }
   .slide:last-child { page-break-after: auto; }
   .source { right: .55in; left: .55in; }
 }
-
