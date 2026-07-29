@@ -1,0 +1,32 @@
+claim_id,claim,claim_type,source_ids,evidence_strength,independence,limitations,report_section,status
+C01,Microsoft AI annual revenue run rate exceeded $37bn in FY2026 Q3,Company fact,S04|S05,High,Issuer primary,Run-rate is not GAAP segment revenue,Executive summary,Verified
+C02,NVIDIA FY2027 Q1 data center revenue was $75.2bn,Company fact,S08,High,Issuer primary,Quarterly metric and not directly comparable to ARR,Executive summary,Verified
+C03,ServiceNow AI ACV exceeded $1bn in Q2 2026,Company fact,S01,High,Issuer primary,ACV is not recognized revenue,Executive summary,Verified
+C04,Enterprise AI use is broad while agent deployment remains low in most functions,Institutional synthesis,S25,Medium,University secondary,Survey definitions and samples differ,Market pricing,Verified with caveat
+C05,Menlo estimated 2025 enterprise GenAI spend at $37bn,Third-party estimate,S26,Medium,VC secondary,Modeled market size and US-only sample,Market pricing,Verified with caveat
+C06,Agent identity authorization audit and non-repudiation are necessary enterprise controls,Institutional finding,S29|S30,High,Government secondary,Pre-standard concepts and RFI selection bias,Value chain,Verified
+C07,Microsoft Copilot Studio uses seat and credits/pay-as-you-go pricing,Product fact,S22,High,Issuer primary,Prices may change and bundles complicate comparison,Pricing,Verified
+C08,GitLab uses credits for agent consumption,Product fact,S17,High,Issuer primary,Credits do not equal disclosed AI ARR,Pricing,Verified
+C09,ServiceNow introduced action-based pricing language for Now Assist suite,Product fact,S15,High,Issuer primary,Package scope and contract discounting vary,Pricing,Verified
+C10,UiPath Maestro licensing combines platform user and consumption elements,Product fact,S21,High,Issuer primary,Enterprise prices are largely customized,Pricing,Verified
+C11,Four large platforms imply about $705bn of 2026 capex at guide midpoints/plans,Derived fact,S07|S32|S33|S34,High,Four issuers,Definitions differ and include non-AI investment,Market pricing,Verified with caveat
+C12,Microsoft expects calendar 2026 capex of about $190bn,Company guidance,S32,High,Issuer primary,Forward-looking and includes component pricing/finance leases,Market pricing,Verified
+C13,Alphabet guided 2026 capex to $175-185bn,Company guidance,S33,High,Issuer primary,Forward-looking and supply/timing dependent,Market pricing,Verified
+C14,Amazon expects about $200bn of 2026 capex,Company guidance,S34,High,Issuer primary,Includes AI chips robotics and other investments,Market pricing,Verified
+C15,Meta guided 2026 capex to $125-145bn,Company guidance,S07,High,Issuer primary,Includes finance lease principal and non-AI investment,Market pricing,Verified
+C16,Profit pools migrate toward execution identity and infrastructure,Author thesis,S25|S29|S30|S32|S33|S34,Medium,Mixed,Directional index is not a market-size forecast,Value chain,Author inference
+C17,Seat-to-consumption can offset seat compression above a task-density threshold,Author model,S15|S17|S21|S22,Medium,Multiple issuers,All quantitative scenario inputs are author assumptions,Pricing,Author model
+C18,ServiceNow Q2 cRPO and RPO each grew 21%,Company fact,S01,High,Issuer primary,Reported growth affected by FX and acquisitions,ServiceNow,Verified
+C19,ServiceNow had 658 customers above $5m ACV and 123 net-new transactions above $1m ACV,Company fact,S01,High,Issuer primary,ACV is contract metric not revenue,ServiceNow,Verified
+C20,ServiceNow FY2025 revenue was $13.278bn and FCF was $4.576bn,Financial fact,S10,High,SEC primary,FCF is author definition CFO minus capex,ServiceNow,Verified
+C21,ServiceNow base target price is $126.43,Author valuation,S01|S10|S31,Medium,Mixed,Highly sensitive to growth and multiple,ServiceNow,Author model
+C22,GitLab FY2027 Q1 revenue grew 23% to $264.2m,Company fact,S02,High,Issuer primary,Quarterly growth is not a full-year trend,GitLab,Verified
+C23,GitLab FY2027 revenue guidance midpoint is about $1.115bn,Company guidance,S02,High,Issuer primary,Forward-looking and subject to restructuring,GitLab,Verified
+C24,GitLab base target price is $50.62,Author valuation,S02|S11|S31,Medium,Mixed,Depends on FY2028 growth and EV/Sales multiple,GitLab,Author model
+C25,UiPath Q1 FY2027 ARR was $1.901bn growing 12% and NRR was 109%,Company fact,S03,High,Issuer primary,NRR definition and ARR timing are issuer-specific,UiPath,Verified
+C26,UiPath FY2027 revenue guidance is $1.776-1.781bn,Company guidance,S03,High,Issuer primary,Forward-looking,UiPath,Verified
+C27,UiPath base target price is $14.08,Author valuation,S03|S12|S31,Medium,Mixed,Depends on reacceleration and multiple,UiPath,Author model
+C28,CyberArk ceased to be a standalone investable public equity after acquisition closed,Corporate action,S23|S24,High,Issuer plus SEC,Acquirer exposure remains through PANW,Company map,Verified
+C29,Market prices use latest full trading day before cutoff 2026-07-28,Market data,S31,Medium,Third-party feed,Corporate action and vendor adjustment risk,Methodology,Verified
+C30,The report does not infer zero AI revenue when disclosure is absent,Method rule,S01|S02|S03|S04,High,Multiple issuers,Missing disclosure still lowers confidence,Methodology,Applied
+

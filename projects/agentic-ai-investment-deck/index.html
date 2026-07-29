@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Agentic AI 重构企业软件：面向 AI 产业研究岗位的机构级 Investment Research Deck" />
+  <title>Agentic AI 重构企业软件｜Investment Research Deck V2</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <nav class="deck-controls" aria-label="演示文稿控制">
+    <button id="prev" aria-label="上一页">←</button>
+    <span id="page-indicator">01 / 18</span>
+    <button id="next" aria-label="下一页">→</button>
+    <button id="overview" aria-label="切换总览">▦</button>
+    <button id="appendix-open" class="appendix-trigger" aria-label="打开附录">APPX</button>
+  </nav>
+
+  <main class="deck" id="deck">
+    <section class="slide cover" data-title="Cover">
+      <div class="cover-rule"></div>
+      <div class="cover-copy">
+        <p class="section-label">AI SOFTWARE · INVESTMENT RESEARCH · JUL 2026</p>
+        <h1>Agentic AI 重构企业软件：<br><span>谁将拥有下一代企业执行层？</span></h1>
+        <p class="cover-subtitle">From Copilots to Agents: Where Enterprise Software Value Pools Shift</p>
+        <p class="cover-conclusion">投资结论：最大机会不在模型层，而在拥有企业执行权、计量权与治理权的平台。</p>
+      </div>
+      <table class="stance-table" aria-label="投资观点">
+        <tr><th>OVERWEIGHT</th><td>NOW</td><td>企业 Agent Control Plane；AI ACV 已进入验证期</td></tr>
+        <tr><th>SATELLITE LONG</th><td>GTLB</td><td>Dev lifecycle 控制权与增长再加速期权</td></tr>
+        <tr><th>WATCH</th><td>MSFT / PANW</td><td>结构受益明确；等待估值或变现证据改善</td></tr>
+        <tr><th>UNDERWEIGHT</th><td>PATH</td><td>Agent 转型证据尚未覆盖旧 RPA 风险</td></tr>
+      </table>
+      <div class="cover-meta">
+        <span>Research date · 29 Jul 2026</span>
+        <span>Prepared by · Chris</span>
+        <span>10-minute interview deck</span>
+      </div>
+      <footer class="source">Research cut-off: 2026-07-29 · Market prices: 2026-07-28 close · For interview discussion only</footer>
+      <span class="slide-no">01</span>
+    </section>
+
+    <section class="slide" data-title="Investment Thesis">
+      <header class="slide-header">
+        <p class="section-label">INVESTMENT THESIS</p>
+        <h2>Agent 时代最大的投资机会，不是模型层，而是拥有企业执行权的平台</h2>
+      </header>
+      <div class="thesis-ledger">
+        <div class="thesis-row">
+          <b>01</b>
+          <h3>软件 TAM 扩张，但价值不会平均分配</h3>
+          <p>Digital labor 创造新消耗；无法计量机器工作量的 SaaS 只能承受 seat 压缩与推理成本。</p>
+          <strong>多执行层，少纯 UI</strong>
+        </div>
+        <div class="thesis-row">
+          <b>02</b>
+          <h3>护城河从界面迁移到控制点</h3>
+          <p>Context、Workflow、Execution、Governance 决定 Agent 能否在生产环境完成任务。</p>
+          <strong>优先“必须经过”的平台</strong>
+        </div>
+        <div class="thesis-row">
+          <b>03</b>
+          <h3>估值将从 AI 叙事切换到 AI 变现</h3>
+          <p>可辨收入、合同扩张、任务用量和毛利，比 Agent 数量或功能发布更能驱动重估。</p>
+          <strong>证据优先于 feature count</strong>
+        </div>
+      </div>
+      <div class="evidence-strip">
+        <div><span>NOW AI ACV</span><b>&gt;$1bn</b></div>
+        <div><span>MSFT AI run-rate</span><b>&gt;$37bn</b></div>
+        <div><span>GTLB EV / Sales</span><b>4.2×</b></div>
+        <div><span>PATH ARR growth</span><b>12%</b></div>
+      </div>
+      <aside class="callout"><b>选股函数</b><span>执行权 × 变现证据 × 赔率 ÷ 证伪距离</span></aside>
+      <footer class="source">Sources: [1] Company filings S01–S05 [2] NIST S29–S30 [3] Author investment framework</footer>
+      <span class="slide-no">02</span>
+    </section>
+
+    <section class="slide" data-title="Why Now">
+      <header class="slide-header">
+        <p class="section-label">WHY NOW · MARKET DEBATE</p>
+        <h2>2026 从产品发布年进入投资验证年：生产用量开始决定谁能变现</h2>
+      </header>
+      <div class="why-now-grid">
+        <div class="validation-path">
+          <div><b>MODEL MATURITY</b><span>工具调用、长上下文与推理稳定性跨过试点门槛</span></div>
+          <i>→</i>
+          <div><b>ENTERPRISE ADOPTION</b><span>20m M365 Copilot paid seats 提供企业分发</span></div>
+          <i>→</i>
+          <div class="active"><b>AI MONETIZATION</b><span>NOW AI ACV &gt;$1bn，应用层出现可辨收入</span></div>
+          <i>→</i>
+          <div><b>PRICING TRANSITION</b><span>Seat 向 credits、actions 与 outcome 迁移</span></div>
+        </div>
+        <div class="debate-table">
+          <div class="debate-head"><span>BULL · TAM EXPANDS</span><span>BEAR · LEGACY COMPRESSES</span></div>
+          <div><span>机器任务量远高于人类点击</span><span>更少 seat 完成更多工作</span></div>
+          <div><span>进入劳动力与业务结果预算</span><span>Agent 绕过薄 UI 与 wrapper</span></div>
+          <div><span>Outcome pricing 提升客户 ROI</span><span>模型商品化压缩功能溢价</span></div>
+          <div class="debate-verdict"><b>OUR VIEW</b><span>软件总支出上升，但利润池从 seat 向 execution / governance 集中。</span></div>
+        </div>
+      </div>
+      <div class="evidence-strip">
+        <div><span>组织使用 AI</span><b>88%</b></div>
+        <div><span>四大平台 2026 capex</span><b>$705bn</b></div>
+        <div><span>验证窗口</span><b>12–18m</b></div>
+        <div><span>核心观测</span><b>Usage → RPO</b></div>
+      </div>
+      <footer class="source">Sources: [1] Stanford HAI 2026 AI Index [2] Microsoft FY26 Q3 [3] NOW Q2 2026 [4] Hyperscaler filings</footer>
+      <span class="slide-no">03</span>
+    </section>
+
+    <section class="slide" data-title="Investment Framework">
+      <header class="slide-header">
+        <p class="section-label">THE INVESTMENT FRAMEWORK</p>
+        <h2>利润池正在从界面迁移到执行层，治理权决定估值溢价能否持续</h2>
+      </header>
+      <div class="framework-grid">
+        <div class="value-chain">
+          <div><b>CONTEXT</b><span>权威数据与企业记忆</span><em>CRM · SAP · SNOW</em></div>
+          <i>→</i>
+          <div><b>WORKFLOW</b><span>规则、任务与跨系统编排</span><em>NOW · GTLB · CRM</em></div>
+          <i>→</i>
+          <div class="focus"><b>EXECUTION</b><span>写入、调用与业务结果</span><em>NOW · MSFT · PATH</em></div>
+          <i>→</i>
+          <div class="governance-node"><b>GOVERNANCE</b><span>Identity · Authorization<br>Runtime control · Auditability<br>Policy enforcement</span><em>MSFT · PANW · CRWD</em></div>
+        </div>
+        <div class="framework-read">
+          <div><small>WHY NOW?</small><p>Agent 从“建议”升级为“行动”，企业风险边界随权限扩大。</p></div>
+          <div><small>WHY THIS COMPANY?</small><p>客户任务必须经过其工作流、身份或控制平面。</p></div>
+          <div><small>WHY MARKET WRONG?</small><p>市场仍按 seat 与 feature 定价，低估 action volume 与治理需求。</p></div>
+          <div><small>WHAT CHANGES MY MIND?</small><p>12–18 个月内用量无法进入 RPO、ARR 或毛利。</p></div>
+        </div>
+      </div>
+      <div class="governance-thesis">
+        <b>INVESTMENT IMPLICATION</b>
+        <span>随着 Agent 从辅助工具进入生产系统，治理层可能从成本中心转变为企业 AI 基础设施。</span>
+        <em>优先：Workflow owner · Cloud/identity · Dev lifecycle · Security governance</em>
+      </div>
+      <footer class="source">Sources: [1] NIST Agent Identity & Authorization S29 [2] NIST Agent Security S30 [3] Company product documents</footer>
+      <span class="slide-no">04</span>
+    </section>
+
+    <section class="slide" data-title="Value Capture Map">
+      <header class="slide-header">
+        <p class="section-label">WHERE VALUE CAPTURES</p>
+        <h2>NOW 与 MSFT 同时拥有执行控制和变现证据；GTLB 的赔率来自证据尚未充分定价</h2>
+      </header>
+      <div class="scatter-layout">
+        <div class="scatter" role="img" aria-label="执行控制与AI变现证据二维图">
+          <span class="axis-y">AI MONETIZATION EVIDENCE ↑</span>
+          <span class="axis-x">EXECUTION CONTROL →</span>
+          <span class="quad q1">Narrative risk</span>
+          <span class="quad q2">Proven compounders</span>
+          <span class="quad q3">Transition risk</span>
+          <span class="quad q4">Option value</span>
+          <span class="sweet-spot">INVESTMENT SWEET SPOT<br><small>High control × proven monetization</small></span>
+          <button class="bubble msft" style="--x:84%;--y:82%" aria-label="MSFT：高执行控制，高变现证据">MSFT</button>
+          <button class="bubble now" style="--x:77%;--y:74%" aria-label="NOW：高执行控制，高变现证据">NOW</button>
+          <button class="bubble crm" style="--x:68%;--y:52%" aria-label="CRM：较高执行控制，中等变现证据">CRM</button>
+          <button class="bubble panw" style="--x:80%;--y:44%" aria-label="PANW：高执行控制，中等变现证据">PANW</button>
+          <button class="bubble gtlb" style="--x:64%;--y:42%" aria-label="GTLB：中高执行控制，中等变现证据">GTLB</button>
+          <button class="bubble path" style="--x:57%;--y:24%" aria-label="PATH：中等执行控制，较低变现证据">PATH</button>
+        </div>
+        <div class="map-read">
+          <div><b>NOW</b><span>AI ACV &gt;$1bn；workflow + execution</span><em>Core long</em></div>
+          <div><b>GTLB</b><span>Dev lifecycle control；Duo 尚未独立披露</span><em>Satellite long</em></div>
+          <div><b>MSFT</b><span>&gt;$37bn AI run-rate；全栈但预期更高</span><em>Benchmark / watch</em></div>
+          <div><b>PANW</b><span>机器身份与 runtime control 稀缺</span><em>Research watch</em></div>
+          <div><b>PATH</b><span>执行资产强；ARR/NRR 尚未证明再加速</span><em>Underweight</em></div>
+        </div>
+      </div>
+      <aside class="callout"><b>非共识点</b><span>结构位置好不等于股票值得买；变现证据与预期差决定 Alpha。</span></aside>
+      <footer class="source">Sources: [1] Company filings/product documents [2] Agent value capture model [3] Author investment classification</footer>
+      <span class="slide-no">05</span>
+    </section>
+
+    <section class="slide" data-title="Business Model Shift">
+      <header class="slide-header">
+        <p class="section-label">SOFTWARE BUSINESS MODEL SHIFT</p>
+        <h2>Seat 向 Consumption 与 Outcome 迁移，将扩大收入池，也提高盈利波动</h2>
+      </header>
+      <div class="pricing-grid">
+        <div class="pricing-flow">
+          <div class="price-block seat"><small>LEGACY</small><b>SEAT</b><span>$ / user / month</span><em>稳定，但与机器工作量脱钩</em></div>
+          <i>→</i>
+          <div class="price-block consumption"><small>SCALING NOW</small><b>CONSUMPTION</b><span>$ / credit / action</span><em>收入跟随任务量，毛利受推理成本影响</em></div>
+          <i>→</i>
+          <div class="price-block outcome"><small>NEXT</small><b>OUTCOME</b><span>$ / resolved case / result</span><em>进入劳动力预算，但归因更复杂</em></div>
+        </div>
+        <div class="valuation-bridge">
+          <div class="bridge-head"><span>估值变量</span><span>Seat 模式</span><span>Agent 模式</span><span>股票含义</span></div>
+          <div><b>Revenue visibility</b><span>合同席位</span><span>平台费 + 用量</span><em>RPO 更重要，用量波动上升</em></div>
+          <div><b>Gross margin</b><span>高且稳定</span><span>受推理/工具成本影响</span><em>收入增长必须覆盖成本曲线</em></div>
+          <div><b>TAM</b><span>知识工作者</span><span>人 + 机器任务</span><em>成功者可进入劳动力预算</em></div>
+          <div><b>Multiple</b><span>ARR × 留存</span><span>用量 × 毛利 × outcome</span><em>披露质量成为估值变量</em></div>
+        </div>
+      </div>
+      <div class="pricing-proof"><span>NOW · action pricing</span><span>GTLB · credits</span><span>MSFT · Copilot Studio messages</span><span>PATH · platform units</span></div>
+      <footer class="source">Sources: [1] NOW pricing S15 [2] GitLab Credits S17 [3] Microsoft Copilot Studio S22 [4] Author seat-to-consumption model</footer>
+      <span class="slide-no">06</span>
+    </section>
+
+    <section class="slide" data-title="Investment Universe">
+      <header class="slide-header">
+        <p class="section-label">INVESTMENT UNIVERSE · 16 COMPANIES</p>
+        <h2>可投资标的分为控制平面、执行层、基础设施与转型风险，而不是统一的“AI 软件”</h2>
+      </header>
+      <div class="screen-table">
+        <div class="screen-head"><span>Company</span><span>Position</span><span>AI evidence</span><span>Valuation / expectation</span><span>View</span></div>
+        <div><b>NOW</b><span>Workflow + execution</span><span>AI ACV &gt;$1bn；cRPO +21%</span><span>7.9× EV/Sales；质量溢价</span><em>OVERWEIGHT</em></div>
+        <div><b>GTLB</b><span>Dev lifecycle control</span><span>Duo credits；尚缺独立 ARR</span><span>4.2× EV/Sales；净现金</span><em>SATELLITE LONG</em></div>
+        <div><b>MSFT</b><span>Cloud + identity + distribution</span><span>&gt;$37bn AI run-rate；20m seats</span><span>成功预期较充分</span><em>WATCH / BENCHMARK</em></div>
+        <div><b>PANW</b><span>Runtime + identity governance</span><span>Agent security 控制点</span><span>等待整合与赔率</span><em>WATCH</em></div>
+        <div><b>CRM / SAP / ORCL</b><span>Record + workflow</span><span>产品证据强；独立收入较弱</span><span>结构受益，赔率分化</span><em>NEUTRAL</em></div>
+        <div><b>SNOW / DDOG / CRWD</b><span>Context / telemetry / security</span><span>需求受益；变现口径不一</span><span>高预期限制非对称性</span><em>RESEARCH LIST</em></div>
+        <div><b>PATH / CTSH</b><span>RPA / labor transition</span><span>ARR/NRR 或 AI 收入证据不足</span><span>便宜但缺乏重估催化</span><em>UNDERWEIGHT</em></div>
+      </div>
+      <aside class="callout"><b>筛选结论</b><span>深挖 NOW / GTLB；用 MSFT / PANW 校准结构赢家；用 PATH 检验转型风险。</span></aside>
+      <footer class="source">Sources: [1] research/06_company_screen.csv [2] Company filings/product documents [3] Market prices 2026-07-28</footer>
+      <span class="slide-no">07</span>
+    </section>
+
+    <section class="slide company now-slide" data-title="ServiceNow Thesis">
+      <header class="slide-header">
+        <p class="section-label">TOP PICK #1 · SERVICENOW</p>
+        <h2>ServiceNow 可能成为企业 Agent Control Plane，而不只是 ITSM 软件</h2>
+        <div class="investment-call"><b>CALL</b><strong>BUY</strong><span>CONFIDENCE · HIGH</span></div>
+      </header>
+      <div class="company-thesis-grid">
+        <div class="company-thesis">
+          <h3>INVESTMENT THESIS</h3>
+          <p>NOW 同时拥有企业工作流上下文、跨系统执行权与治理能力；Agent 每增加一个生产任务，平台的行动密度与计量机会同步提升。</p>
+          <div class="logic-chain"><span>Workflow context</span><i>→</i><span>AI orchestration</span><i>→</i><span>Action pricing</span><i>→</i><span>RPO / FCF</span></div>
+        </div>
+        <div class="key-data">
+          <h3>KEY DATA</h3>
+          <div><b>&gt;$1bn</b><span>AI ACV</span></div>
+          <div><b>+21%</b><span>cRPO / RPO growth</span></div>
+          <div><b>658</b><span>customers &gt;$5m ACV · +23%</span></div>
+        </div>
+        <div class="market-wrong">
+          <h3>WHY MARKET MAY BE WRONG</h3>
+          <p><b>1</b>市场仍按成熟 SaaS seat 增长定价，低估 action volume。</p>
+          <p><b>2</b>AI ACV 已有披露，但尚未完整进入收入与 FCF。</p>
+          <p><b>3</b>平台中立性使 NOW 能跨 Microsoft、Salesforce 与 SAP 编排。</p>
+        </div>
+      </div>
+      <div class="risk-band">
+        <b>WHAT CAN GO WRONG?</b>
+        <span>Microsoft bundling</span><span>并购与债务</span><span>推理成本拖累毛利</span><span>AI ACV 无法转化为 cRPO</span>
+      </div>
+      <aside class="callout"><b>为什么不是 Microsoft？</b><span>MSFT 是结构赢家和基准，但 NOW 的跨平台工作流更纯、AI ACV 传导更直接，选股 Alpha 更清晰。</span></aside>
+      <footer class="source">Sources: [1] ServiceNow Q2 2026 [2] SEC Company Facts [3] Now Assist / pricing documents</footer>
+      <span class="slide-no">08</span>
+    </section>
+
+    <section class="slide company now-slide" data-title="ServiceNow Valuation">
+      <header class="slide-header">
+        <p class="section-label">SERVICENOW · VALUATION</p>
+        <h2>NOW 的质量溢价合理，但 Base Case 只有 14% 上行，仓位必须由兑现节奏管理</h2>
+      </header>
+      <div class="valuation-grid">
+        <div class="operating-table">
+          <div class="table-head"><span>Operating evidence</span><span>Latest</span><span>Investment read</span></div>
+          <div><b>Revenue growth</b><strong>20.9%</strong><span>高端 SaaS 复合增长</span></div>
+          <div><b>FCF margin</b><strong>34.5%</strong><span>支持 Rule of 40</span></div>
+          <div><b>AI ACV</b><strong>&gt;$1bn</strong><span>应用层稀缺披露</span></div>
+          <div><b>EV / LTM Sales</b><strong>7.9×</strong><span>需要持续兑现</span></div>
+        </div>
+        <div class="scenario-chart">
+          <div class="current-marker">Current $110.62</div>
+          <div class="scenario bear"><i style="--h:43%"></i><span>BEAR</span><b>$74</b><small>-33%</small></div>
+          <div class="scenario base"><i style="--h:74%"></i><span>BASE</span><b>$126</b><small>+14%</small></div>
+          <div class="scenario bull"><i style="--h:100%"></i><span>BULL</span><b>$171</b><small>+55%</small></div>
+        </div>
+      </div>
+      <div class="falsify-strip">
+        <b>FALSIFICATION</b>
+        <span>cRPO &lt;17%</span><span>FCF margin &lt;28%</span><span>净债务继续扩张</span><em>→ Reduce core position</em>
+      </div>
+      <footer class="source">Sources: [1] Market price S31 [2] ServiceNow filings [3] Author financial & valuation models; target-year EV/Sales, not discounted</footer>
+      <span class="slide-no">09</span>
+    </section>
+
+    <section class="slide company gtlb-slide" data-title="GitLab Thesis">
+      <header class="slide-header">
+        <p class="section-label">TOP PICK #2 · GITLAB</p>
+        <h2>AI Coding 增加代码供给，真正稀缺的是从 commit 到 production 的治理控制</h2>
+        <div class="investment-call"><b>CALL</b><strong>BUY</strong><span>CONFIDENCE · MEDIUM</span></div>
+      </header>
+      <div class="gitlab-grid">
+        <div class="lifecycle">
+          <div><b>PLAN</b><span>Issue / context</span></div><i>→</i>
+          <div><b>CODE</b><span>Human + agent</span></div><i>→</i>
+          <div class="focus"><b>SECURE</b><span>Policy / scan</span></div><i>→</i>
+          <div class="focus"><b>CI/CD</b><span>Test / deploy</span></div><i>→</i>
+          <div><b>OPERATE</b><span>Observe / govern</span></div>
+        </div>
+        <div class="competitive-table">
+          <div class="table-head"><span>Question</span><span>GitHub / MSFT</span><span>GitLab</span><span>Investment read</span></div>
+          <div><b>Distribution</b><span>Developer default + Azure</span><span>Smaller installed base</span><em>GitHub advantage</em></div>
+          <div><b>Lifecycle breadth</b><span>Best-of-suite integration</span><span>Single app / data model</span><em>GitLab defense</em></div>
+          <div><b>Model neutrality</b><span>MSFT ecosystem</span><span>Cloud/model neutral</span><em>Regulated buyer value</em></div>
+          <div><b>Monetization</b><span>Copilot seats disclosed</span><span>Duo credits, limited disclosure</span><em>Key proof gap</em></div>
+        </div>
+      </div>
+      <div class="evidence-strip">
+        <div><span>Q1 FY27 growth</span><b>23%</b></div>
+        <div><span>GAAP gross margin</span><b>86%</b></div>
+        <div><span>Net cash</span><b>$1.36bn</b></div>
+        <div><span>EV / Sales</span><b>4.2×</b></div>
+      </div>
+      <aside class="callout"><b>判断</b><span>AI Coding 强化 GitLab，前提是新增代码量转化为 pipeline、测试、安全和部署 credits，而不是被 GitHub 全栈捆绑。</span></aside>
+      <footer class="source">Sources: [1] GitLab Duo Agent Platform [2] GitLab Credits [3] FY27 Q1 results [4] Microsoft Copilot disclosures</footer>
+      <span class="slide-no">10</span>
+    </section>
+
+    <section class="slide company gtlb-slide" data-title="GitLab Valuation">
+      <header class="slide-header">
+        <p class="section-label">GITLAB · VALUATION</p>
+        <h2>GTLB 的上行弹性来自低倍数与增长再加速期权，证据不足则只能获得“便宜”而非重估</h2>
+      </header>
+      <div class="gitlab-valuation">
+        <div class="revenue-bars">
+          <h3>BASE REVENUE PATH</h3>
+          <div><span>FY26A</span><i style="--w:60%"></i><b>$955m</b></div>
+          <div><span>FY27E</span><i style="--w:70%"></i><b>$1.115bn</b></div>
+          <div><span>FY28E</span><i style="--w:84%"></i><b>$1.349bn</b></div>
+          <div><span>FY29E</span><i style="--w:100%"></i><b>$1.598bn</b></div>
+        </div>
+        <div class="operating-table compact">
+          <div class="table-head"><span>Metric</span><span>Evidence</span><span>Read-through</span></div>
+          <div><b>Growth</b><strong>23%</strong><span>需要 FY28 ≥18%</span></div>
+          <div><b>FCF margin</b><strong>23.2%</strong><span>Rule of 40 支撑</span></div>
+          <div><b>AI evidence</b><strong>Credits</strong><span>尚缺独立 ARR</span></div>
+          <div><b>Primary risk</b><strong>GitHub</strong><span>分发与 bundling</span></div>
+        </div>
+        <div class="scenario-list">
+          <div><span>BEAR</span><b>$33</b><small>0%</small></div>
+          <div class="base"><span>BASE</span><b>$51</b><small>+54%</small></div>
+          <div class="bull"><span>BULL</span><b>$73</b><small>+123%</small></div>
+        </div>
+      </div>
+      <div class="falsify-strip">
+        <b>FALSIFICATION</b>
+        <span>FY28 growth &lt;18%</span><span>Duo credits 无用量披露</span><span>稀释股数年增 &gt;3%</span><em>→ Exit satellite</em>
+      </div>
+      <footer class="source">Sources: [1] GitLab FY27 Q1 [2] FY26 10-K / SEC [3] Author financial & valuation models</footer>
+      <span class="slide-no">11</span>
+    </section>
+
+    <section class="slide company path-slide" data-title="UiPath Risk Case">
+      <header class="slide-header">
+        <p class="section-label">RISK CASE · UIPATH</p>
+        <h2>PATH 的核心分歧不是“RPA 是否存在”，而是 Agent 会增强还是绕过它</h2>
+        <div class="investment-call negative"><b>CALL</b><strong>UNDERWEIGHT</strong><span>CONFIDENCE · MEDIUM</span></div>
+      </header>
+      <div class="path-case-grid">
+        <div class="path-case bull">
+          <h3>AGENT ENHANCES RPA</h3>
+          <div class="path-flow"><span>Intent</span><i>→</i><span>Maestro</span><i>→</i><span>Robot / legacy UI</span></div>
+          <p>旧系统缺少稳定 API，既有机器人、连接器与流程资产仍是执行“手脚”。</p>
+          <em>证据要求：Maestro 带来净新增 ARR 与生产案例</em>
+        </div>
+        <div class="path-verdict">
+          <small>OUR VIEW</small>
+          <b>UNDERWEIGHT</b>
+          <span>保留转型期权<br>但不为叙事付费</span>
+        </div>
+        <div class="path-case bear">
+          <h3>AGENT BYPASSES RPA</h3>
+          <div class="path-flow"><span>Intent</span><i>→</i><span>Direct API</span><i>→</i><span>Business system</span></div>
+          <p>API-first Agent 与云平台 orchestration 绕过脆弱 UI 自动化，压缩旧 bot SKU。</p>
+          <em>证据要求：ARR/NRR 持续低迷且无可辨 Agent 用量</em>
+        </div>
+      </div>
+      <div class="evidence-strip">
+        <div><span>ARR</span><b>$1.901bn</b></div>
+        <div><span>ARR growth</span><b>12%</b></div>
+        <div><span>NRR</span><b>109%</b></div>
+        <div><span>Net cash</span><b>$1.42bn</b></div>
+      </div>
+      <aside class="callout"><b>什么改变观点？</b><span>ARR &gt;15%、NRR &gt;112% 且披露可分辨 Maestro/Agent 用量 → 从低配升级至观察。</span></aside>
+      <footer class="source">Sources: [1] UiPath Q1 FY27 [2] Maestro product & licensing documents [3] Author scenario analysis</footer>
+      <span class="slide-no">12</span>
+    </section>
+
+    <section class="slide" data-title="Valuation Comparison">
+      <header class="slide-header">
+        <p class="section-label">VALUATION COMPARISON</p>
+        <h2>NOW 质量最高，GTLB 赔率最好，PATH 最便宜但增长证据不足</h2>
+      </header>
+      <div class="comparison-table">
+        <div class="comparison-row head"><span>Company</span><span>Growth</span><span>Gross margin</span><span>FCF margin</span><span>Rule of 40</span><span>EV / Sales</span><span>Base target</span><span>View</span></div>
+        <div class="comparison-row now"><b>NOW</b><span>20.9%</span><span>77.5%</span><span>34.5%</span><strong>55</strong><span>7.9×</span><span>$126 / +14%</span><em>CORE LONG</em></div>
+        <div class="comparison-row gtlb"><b>GTLB</b><span>25.8%</span><span>87.4%</span><span>23.2%</span><strong>49</strong><span>4.2×</span><span>$51 / +54%</span><em>SATELLITE</em></div>
+        <div class="comparison-row path"><b>PATH</b><span>12.7%</span><span>83.2%</span><span>21.9%</span><strong>35</strong><span>3.0×</span><span>$14 / +15%</span><em>UNDERWEIGHT</em></div>
+      </div>
+      <div class="multiple-bridge">
+        <div><b>GROWTH</b><span>NOW/GTLB 的 20%+ 增长支持溢价；PATH 低双位数不足。</span></div>
+        <div><b>FCF</b><span>NOW 34.5% FCF margin 提供质量底座；GTLB 仍有扩张空间。</span></div>
+        <div><b>AI MONETIZATION</b><span>NOW 已披露 AI ACV；GTLB/PATH 仍需证明用量进入收入。</span></div>
+        <div><b>RISK</b><span>高倍数需要兑现；低倍数不自动等于低风险。</span></div>
+      </div>
+      <aside class="callout"><b>组合含义</b><span>用 NOW 获取质量，用 GTLB 获取凸性；PATH 只做相对低配，不做高确信度裸空。</span></aside>
+      <footer class="source">Sources: [1] SEC Company Facts [2] Market prices S31 [3] Author models · Rule of 40 = annual growth + FCF margin</footer>
+      <span class="slide-no">13</span>
+    </section>
+
+    <section class="slide" data-title="Non-consensus Opportunities">
+      <header class="slide-header">
+        <p class="section-label">NON-CONSENSUS RESEARCH DIRECTIONS</p>
+        <h2>下一轮非共识机会可能来自 Agent 治理层，以及中国企业软件的本地执行入口</h2>
+      </header>
+      <div class="opportunity-grid">
+        <div class="opportunity security">
+          <h3>SECURITY / GOVERNANCE LAYER</h3>
+          <p>Agent 数量上升会把身份、最小权限、运行时控制与审计从成本中心变成生产前提。</p>
+          <blockquote>Based on enterprise AI governance and agent security research, we believe governance infrastructure may become a mandatory layer for scaled Agent adoption.</blockquote>
+          <div class="control-stack">
+            <span>Machine identity</span><i>→</i><span>Authorization</span><i>→</i><span>Runtime policy</span><i>→</i><span>Audit</span>
+          </div>
+          <table>
+            <tr><th>Research watch</th><th>Why it matters</th></tr>
+            <tr><td>PANW / CRWD</td><td>运行时与身份控制可成为每个 Agent 的“税”</td></tr>
+            <tr><td>MSFT</td><td>Entra + cloud + Copilot 形成闭环</td></tr>
+          </table>
+        </div>
+        <div class="opportunity china">
+          <h3>CHINA AI ENTERPRISE SOFTWARE MAPPING</h3>
+          <p>本地部署、数据边界与生态入口可能使价值链更偏向云/模型平台、协作入口和 ERP/workflow。</p>
+          <div class="china-map">
+            <div><b>云 / 模型</b><span>阿里 · 腾讯 · 百度 · 华为</span></div>
+            <div><b>协作入口</b><span>钉钉 · 飞书 · 企业微信</span></div>
+            <div><b>企业应用</b><span>用友 · 金蝶 · 泛微</span></div>
+            <div><b>治理议题</b><span>私有化 · 数据驻留 · 权限审计</span></div>
+          </div>
+          <em>研究映射，不构成覆盖、估值或投资推荐。</em>
+        </div>
+      </div>
+      <aside class="callout"><b>RESEARCH EDGE</b><span>传统软件研究聚焦 Application layer；Agent 时代新增 Control layer。先验证“每个 Agent 是否必须购买治理”，再比较中美执行入口差异。</span></aside>
+      <footer class="source">Sources: [1] NIST S29–S30 [2] Company product documents [3] Author research agenda; China mapping is non-recommendation context</footer>
+      <span class="slide-no">14</span>
+    </section>
+
+    <section class="slide" data-title="Catalysts">
+      <header class="slide-header">
+        <p class="section-label">CATALYSTS · NEXT 12–18 MONTHS</p>
+        <h2>下一轮重估来自可分辨收入、生产用量、定价变化与毛利，而不是更多 Agent 发布</h2>
+      </header>
+      <div class="catalyst-table">
+        <div class="catalyst-head"><span>Company</span><span>H2 2026 · Disclosure</span><span>H1 2027 · Usage / pricing</span><span>2027 · Economics</span><span>Stock implication</span></div>
+        <div><b>NOW</b><span>AI ACV 与大单</span><span>action pricing / workflow penetration</span><span>cRPO 与 FCF 转化</span><em>兑现则扩大核心仓位</em></div>
+        <div><b>GTLB</b><span>Duo attach / credits</span><span>pipeline 与 security 用量</span><span>增长再加速 / dilution</span><em>证据出现再加仓</em></div>
+        <div><b>PATH</b><span>Maestro 客户与 ARR</span><span>生产任务 / NRR</span><span>API Agent 对 bot SKU 的影响</span><em>数据改善才升级</em></div>
+        <div><b>MSFT</b><span>AI revenue / Copilot seats</span><span>agent messages / Azure usage</span><span>capex ROI / cloud margin</span><em>判断平台拥挤度</em></div>
+        <div><b>PANW</b><span>身份整合进度</span><span>Agent runtime controls</span><span>安全平台化利润率</span><em>寻找非共识切入点</em></div>
+      </div>
+      <div class="catalyst-legend"><span><b>Revenue</b> 可分辨 AI ARR/ACV</span><span><b>Usage</b> paid tasks / credits</span><span><b>Pricing</b> seat → action</span><span><b>Margin</b> revenue / inference cost</span></div>
+      <footer class="source">Sources: [1] Company guidance and product roadmaps [2] Author catalyst calendar</footer>
+      <span class="slide-no">15</span>
+    </section>
+
+    <section class="slide" data-title="Falsification">
+      <header class="slide-header">
+        <p class="section-label">FALSIFICATION</p>
+        <h2>真正的风险管理不是列风险，而是预先定义触发器、指标和仓位动作</h2>
+      </header>
+      <div class="falsification-table">
+        <div class="falsify-head"><span>Core judgment</span><span>Trigger</span><span>Metric</span><span>Action</span></div>
+        <div><b>Execution layer wins</b><span>生产任务无法进入合同扩张</span><strong>12–18m 无 usage / RPO 证据</strong><em>下调高倍数应用权重</em></div>
+        <div><b>NOW core long</b><span>增长或现金流失速</span><strong>cRPO &lt;17% 或 FCF &lt;28%</strong><em>Reduce core</em></div>
+        <div><b>GTLB satellite long</b><span>AI 代码未转化为生命周期消耗</span><strong>FY28 growth &lt;18%；无 credits 证据</strong><em>Exit satellite</em></div>
+        <div><b>PATH underweight</b><span>Maestro 真正再加速</span><strong>ARR &gt;15%；NRR &gt;112%；usage disclosed</strong><em>Upgrade to watch</em></div>
+        <div><b>Security layer option</b><span>治理仍是免费功能而非预算</span><strong>无单独 SKU / attach / deal evidence</strong><em>停止扩展主题</em></div>
+        <div><b>Capex converts</b><span>折旧快于 AI 收入</span><strong>Cloud margin ↓ 且 revenue 不加速</strong><em>Rotate to cash flow</em></div>
+      </div>
+      <aside class="callout danger"><b>最大组合风险</b><span>平台 bundling 同时压缩独立 SaaS 的定价权与分发权。</span></aside>
+      <footer class="source">Sources: [1] research/07_thesis_falsification.md [2] Company guidance [3] NIST security research</footer>
+      <span class="slide-no">16</span>
+    </section>
+
+    <section class="slide" data-title="Portfolio View">
+      <header class="slide-header">
+        <p class="section-label">PORTFOLIO VIEW</p>
+        <h2>如果我是 PM：用 NOW 做核心，用 GTLB 买凸性，用 PATH 表达相对低配</h2>
+      </header>
+      <div class="portfolio-table">
+        <div class="portfolio-head"><span>Bucket</span><span>Company</span><span>Role</span><span>Add trigger</span><span>Cut trigger</span></div>
+        <div class="core"><b>CORE LONG</b><strong>NOW</strong><span>质量与执行权底仓</span><em>AI ACV → cRPO / FCF</em><i>cRPO &lt;17%</i></div>
+        <div class="satellite"><b>SATELLITE</b><strong>GTLB</strong><span>低倍数增长凸性</span><em>Credits + FY28 acceleration</em><i>Growth &lt;18%</i></div>
+        <div class="watch"><b>WATCH</b><strong>MSFT · PANW</strong><span>结构赢家与主题校准</span><em>披露改善 / 赔率回归</em><i>Capex ROI 或估值恶化</i></div>
+        <div class="avoid"><b>AVOID / UW</b><strong>PATH · CTSH</strong><span>转型风险表达</span><em>PATH ARR/NRR 显著改善</em><i>不因便宜被动加仓</i></div>
+      </div>
+      <div class="position-sizing">
+        <b>POSITION SIZING</b>
+        <div><span>结构优势</span><strong>35%</strong></div>
+        <div><span>证据强度</span><strong>30%</strong></div>
+        <div><span>估值赔率</span><strong>25%</strong></div>
+        <div><span>催化剂/流动性</span><strong>10%</strong></div>
+      </div>
+      <aside class="callout"><b>纪律</b><span>先按证据建立仓位，再按催化剂放大；不把长期结构正确等同于当前价格正确。</span></aside>
+      <footer class="source">Sources: [1] Author portfolio framework [2] Company-specific evidence and valuation models</footer>
+      <span class="slide-no">17</span>
+    </section>
+
+    <section class="slide methodology" data-title="Research Methodology">
+      <header class="slide-header">
+        <p class="section-label">RESEARCH METHODOLOGY</p>
+        <h2>结论由一手财报、产品定价、产业研究与可编辑模型交叉验证</h2>
+      </header>
+      <div class="method-grid">
+        <div class="source-hierarchy">
+          <h3>SOURCE HIERARCHY</h3>
+          <div><b>1</b><span>Company filings · SEC · earnings</span><em>财务与经营事实</em></div>
+          <div><b>2</b><span>Product · pricing · technical docs</span><em>产品与计量证据</em></div>
+          <div><b>3</b><span>NIST · Stanford HAI · usage research</span><em>产业与治理验证</em></div>
+          <div><b>4</b><span>Author scenarios · market data</span><em>明确标注假设</em></div>
+        </div>
+        <div class="model-register">
+          <h3>MODEL REGISTER</h3>
+          <div><b>Agent Value Capture</b><span>16-company structural screen</span></div>
+          <div><b>Company Financial Model</b><span>NOW / GTLB / PATH operating paths</span></div>
+          <div><b>Valuation Scenarios</b><span>Bull / Base / Bear target prices</span></div>
+          <div><b>Seat-to-Consumption</b><span>Pricing migration sensitivity</span></div>
+        </div>
+      </div>
+      <div class="method-stats">
+        <div><span>Source IDs</span><b>30</b></div>
+        <div><span>Independent source groups</span><b>29</b></div>
+        <div><span>Primary-source share</span><b>76.7%</b></div>
+        <div><span>Covered companies</span><b>16</b></div>
+      </div>
+      <button class="open-appendix-large" data-open-appendix>OPEN HIDDEN APPENDIX <span>Score · Seat Model · Source Index · Financial Models</span></button>
+      <footer class="source">Full source log and downloadable models are preserved in assets/downloads/ · Original Research Package remains unchanged</footer>
+      <span class="slide-no">18</span>
+    </section>
+  </main>
+
+  <aside class="appendix-drawer" id="appendix-drawer" aria-hidden="true" aria-label="隐藏附录">
+    <div class="appendix-bar">
+      <div><small>HIDDEN APPENDIX</small><b>Model support & source audit</b></div>
+      <button id="appendix-close" aria-label="关闭附录">×</button>
+    </div>
+    <div class="appendix-tabs" role="tablist">
+      <button class="active" data-tab="score" role="tab">Agent Value Score</button>
+      <button data-tab="seat" role="tab">Seat Model</button>
+      <button data-tab="sources" role="tab">Source Index</button>
+      <button data-tab="models" role="tab">Financial Models</button>
+    </div>
+    <div class="appendix-content">
+      <section class="appendix-panel active" data-panel="score">
+        <header><h2>Agent Value Capture Score</h2><p>七维作者框架仅用于结构化比较；评分支持观点，不替代投资判断。</p></header>
+        <img src="assets/charts/05_value_capture_scores.png" alt="Agent Value Capture Score chart" />
+        <div class="appendix-note">Data/context 15% · Execution 15% · Distribution 15% · Governance 10% · Monetization 20% · Financial 10% · Valuation 15%</div>
+      </section>
+      <section class="appendix-panel" data-panel="seat">
+        <header><h2>Seat-to-Consumption Sensitivity</h2><p>席位收缩是否伤害收入，取决于任务密度、attach rate 与每次行动价格。</p></header>
+        <img src="assets/charts/06_seat_consumption_heatmap.png" alt="Seat to consumption sensitivity heatmap" />
+        <div class="appendix-note">Base: 1,000 seats · -10% seat change · 35% attach · 5k tasks · $0.20/action</div>
+      </section>
+      <section class="appendix-panel" data-panel="sources">
+        <header><h2>Source Index & Audit</h2><p>事实、管理层指引、作者假设与市场数据保持分层。</p></header>
+        <div class="source-audit">
+          <div><b>Primary</b><span>Company filings, SEC, earnings, pricing and product documents</span><em>Core facts</em></div>
+          <div><b>Institutional</b><span>NIST, Stanford HAI and enterprise usage research</span><em>Cross-check</em></div>
+          <div><b>Market</b><span>2026-07-28 closing prices</span><em>Valuation only</em></div>
+          <div><b>Author</b><span>Forecasts, multiples and scenario assumptions</span><em>Editable</em></div>
+        </div>
+        <p class="appendix-links"><a href="assets/downloads/source_index.md">Open source index</a><a href="assets/downloads/source_log.csv">Open source log</a><a href="assets/downloads/claim_evidence_matrix.csv">Open claim-evidence matrix</a></p>
+      </section>
+      <section class="appendix-panel" data-panel="models">
+        <header><h2>Complete Financial Models</h2><p>所有模型保留在原 models 目录；正文仅引用经过审核的结论。</p></header>
+        <div class="model-links">
+          <a href="assets/downloads/agent_value_capture_score.xlsx"><b>Agent Value Capture Score</b><span>16-company structural comparison</span></a>
+          <a href="assets/downloads/company_financial_model.xlsx"><b>Company Financial Model</b><span>NOW / GTLB / PATH forecasts</span></a>
+          <a href="assets/downloads/valuation_scenarios.xlsx"><b>Valuation Scenarios</b><span>Bull / Base / Bear target prices</span></a>
+          <a href="assets/downloads/seat_consumption_model.xlsx"><b>Seat-to-Consumption Model</b><span>Pricing transition sensitivities</span></a>
+        </div>
+      </section>
+    </div>
+  </aside>
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+
+  <script src="deck.js"></script>
+</body>
+</html>
+
