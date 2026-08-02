@@ -1,8 +1,8 @@
 # 来源索引
 
-V2.2 研究日志包含 34 个 Source IDs、33 个唯一文档 / URL；18 页正文实际引用 27 个 Source IDs，其中一手来源占 85.2%。证据矩阵包含 24 条 Verified 或 Verified with caveat 的 claim records。完整 URL、抓取日、证据类型、局限与置信度见 `source_log.csv`，逐条核验状态见 `claim_evidence_matrix.csv`。
+V2.3 research evidence base 包含 34 条 source records、33 个唯一文档 / URL；18 页正文实际引用 27 条 source records，其中一手来源占 85.2%。证据矩阵包含 24 条 Verified 或 Verified with caveat 的 claims。完整 URL、抓取日、证据类型、局限与置信度见 `source_log.csv`，逐条核验状态见 `claim_evidence_matrix.csv`。
 
-Source IDs may exceed unique documents because one document can support multiple evidence records or appear under multiple research tags.
+Source records may exceed unique documents because one document can support multiple evidence items.
 
 ## 公司财报与监管文件
 
