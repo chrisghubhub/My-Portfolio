@@ -523,6 +523,23 @@ p, span, td, th { line-height: 1.45; }
 .comparison-row em { font-size: 12px; line-height: 1.25; }
 .comparison-row i { color: var(--muted); font-size: 14px; font-style: normal; line-height: 1.35; }
 .comparison-row i b { color: var(--navy); font-size: 14px; }
+.expectation-gap { margin-top: 14px; border: 1px solid var(--line); background: #fff; }
+.expectation-gap > h3 { margin: 0; padding: 8px 13px; color: var(--navy); border-bottom: 2px solid var(--navy); font-size: 17px; letter-spacing: .04em; }
+.expectation-row { display: grid; grid-template-columns: .55fr 1.08fr 2.37fr; min-height: 69px; align-items: center; border-bottom: 1px solid var(--line); }
+.expectation-row:last-child { border-bottom: 0; }
+.expectation-row > * { padding: 8px 13px; font-size: 14px; line-height: 1.35; }
+.expectation-row > b { color: var(--navy); font-size: 17px; }
+.expectation-row > span { color: var(--muted); }
+.expectation-row em { display: block; margin-top: 5px; color: var(--blue); font-size: 14px; font-style: normal; font-weight: 800; letter-spacing: .01em; }
+.expectation-row.head { min-height: 34px; color: #fff; background: var(--navy); font-weight: 800; }
+.expectation-row.head > * { color: #fff; font-size: 12px; }
+.expectation-row.now { box-shadow: inset 4px 0 var(--blue); }
+.expectation-row.gtlb { box-shadow: inset 4px 0 var(--green); }
+.expectation-row.path { box-shadow: inset 4px 0 var(--amber); }
+.investment-interpretation { display: grid; grid-template-columns: 190px 1fr; gap: 15px; align-items: center; margin-top: 11px; padding: 9px 14px; color: #fff; background: var(--navy); }
+.investment-interpretation > b { color: #9db8ff; font-size: 11px; letter-spacing: .08em; }
+.investment-interpretation > span { font-size: 15px; line-height: 1.35; }
+.investment-interpretation strong { display: block; margin-top: 2px; color: #fff; font-size: 16px; }
 .multiple-bridge { grid-template-columns: repeat(3, 1fr); }
 .multiple-bridge b { font-size: 13px; }
 .portfolio-table > div { grid-template-columns: .82fr .78fr 1.6fr 1.22fr 1.12fr; }
@@ -672,8 +689,9 @@ body.appendix-open .drawer-backdrop { visibility: visible; opacity: 1; }
   .china-map div { border-right: 0; }
   .universe-matrix { height: auto; grid-template-columns: 1fr; }
   .universe-cell { border-right: 0; border-bottom: 1px solid var(--line) !important; }
-  .comparison-table, .catalyst-table, .falsification-table, .portfolio-table, .valuation-bridge, .screen-table, .competitive-table { max-width: 100%; overflow-x: auto; }
-  .comparison-row, .catalyst-table > div, .falsification-table > div, .portfolio-table > div, .valuation-bridge > div, .screen-table > div, .competitive-table > div { min-width: 820px; }
+  .comparison-table, .expectation-gap, .catalyst-table, .falsification-table, .portfolio-table, .valuation-bridge, .screen-table, .competitive-table { max-width: 100%; overflow-x: auto; }
+  .comparison-row, .expectation-row, .catalyst-table > div, .falsification-table > div, .portfolio-table > div, .valuation-bridge > div, .screen-table > div, .competitive-table > div { min-width: 820px; }
+  .investment-interpretation { grid-template-columns: 1fr; }
   .catalyst-table > div { min-width: 620px; }
   .appendix-drawer { width: 100vw; }
 }
@@ -683,6 +701,7 @@ body.appendix-open .drawer-backdrop { visibility: visible; opacity: 1; }
     padding-top: 22px;
     padding-bottom: 46px;
   }
+  .slide[data-title="Valuation Comparison"] { padding-bottom: 34px; }
   h2 {
     font-size: 30px;
   }
@@ -705,8 +724,14 @@ body.appendix-open .drawer-backdrop { visibility: visible; opacity: 1; }
     margin-top: 9px;
   }
   .callout { padding-top: 8px; padding-bottom: 8px; }
-  .comparison-row { min-height: 62px; }
+  .comparison-row { min-height: 58px; }
   .comparison-row.head { min-height: 40px; }
+  .expectation-gap { margin-top: 9px; }
+  .expectation-gap > h3 { padding-top: 5px; padding-bottom: 5px; }
+  .expectation-row { min-height: 54px; }
+  .expectation-row.head { min-height: 30px; }
+  .expectation-row > * { padding-top: 5px; padding-bottom: 5px; }
+  .investment-interpretation { margin-top: 7px; padding-top: 6px; padding-bottom: 6px; }
   .portfolio-table > div { min-height: 57px; }
   .method-stats div { padding-top: 8px; padding-bottom: 8px; }
   .method-stats span { min-height: 32px; }
