@@ -1,5 +1,17 @@
 (() => {
   const slides = [...document.querySelectorAll(".slide")];
+  slides.forEach((slide) => {
+    if (slide.querySelector(":scope > .slide-body")) return;
+    const header = slide.querySelector(":scope > .slide-header");
+    const source = slide.querySelector(":scope > .source");
+    const pageNumber = slide.querySelector(":scope > .slide-no");
+    const body = document.createElement("div");
+    body.className = "slide-body";
+    [...slide.children]
+      .filter((node) => node !== header && node !== source && node !== pageNumber)
+      .forEach((node) => body.appendChild(node));
+    slide.insertBefore(body, source || pageNumber || null);
+  });
   const progress = document.getElementById("progress-bar");
   const indicator = document.getElementById("page-indicator");
   const prev = document.getElementById("prev");
